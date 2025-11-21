@@ -80,3 +80,12 @@ main> h1 {
 main > h2 {
     margin-bottom: 50px;
 }
+
+
+
+.imagem {
+    width:100%;
+    min-width: 600px;
+    border-radius: 10px 8px 10px 4px;
+    border: solid black;
+}
