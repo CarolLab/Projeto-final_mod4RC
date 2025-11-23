@@ -44,14 +44,6 @@ nav>a:hover {
     text-decoration:underline;
 }
 
-
-
-main {
-    margin: 15px;
-}
-
-
-
 main div {
     margin: 20px;
 }
@@ -81,6 +73,10 @@ main > h2 {
     margin-bottom: 50px;
 }
 
+
+.div_principal {
+    font-size: 1.1em;
+}
 
 
 .imagem {
