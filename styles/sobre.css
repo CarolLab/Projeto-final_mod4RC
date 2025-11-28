@@ -22,7 +22,8 @@ body {
 header {
     background-color: var(--cor2);
     border-bottom: 3px solid black;
-    padding: 25px;
+    padding: 40px;
+    padding-bottom: 40px;
 
 }
 
