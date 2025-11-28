@@ -67,17 +67,54 @@ main>h1 {
 
 
 
-main > p {
+main>p {
     font: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 .div_principal {
-    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px
 }
 
 
-.div_principal div{
+.div_categoria{
+    margin: 20px;
+    font-family: Inter, system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div_categoria h2 {
+    font-size: 1.4em;
+    margin: 15px;
+}
+
+.div_categoria ul{
+    list-style: none;
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.div_categoria a {
+    font-size: 1.1em;
+    text-decoration: none;
+
+}
+
+.div_receitas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.div_receitas div {
     margin: 20px;
 }
 
