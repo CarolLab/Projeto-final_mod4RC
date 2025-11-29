@@ -9,7 +9,7 @@
 
 
 
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
@@ -20,7 +20,7 @@ header {
     border-bottom: 3px solid black;
     padding: 40px;
     padding-bottom: 40px;
-    
+
 }
 
 nav {
@@ -28,7 +28,7 @@ nav {
     margin: 5px;
 }
 
-nav > a {
+nav>a {
     font-family: Comic Sans Ms, Comic Sans, cursive;
     color: var(--cor5);
     font-size: 1.2em;
@@ -42,26 +42,26 @@ nav > a {
 nav>a:hover {
     color: var(--cor1);
     font-weight: 200;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 main div {
     margin: 20px;
 }
 
-main p{
+main p {
     margin: 30px 0px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 
-main ul{
+main ul {
     font-size: 1.01em;
     margin: 30px
 }
 
 
-main> h1 {
+main>h1 {
     font-family: Comic Sans MS, Comic Sans, cursive;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.199);
     text-align: center;
@@ -71,7 +71,7 @@ main> h1 {
 }
 
 
-main > h2 {
+main>h2 {
     margin-bottom: 50px;
 }
 
@@ -82,7 +82,7 @@ main > h2 {
 
 
 .imagem {
-    width:100%;
+    width: 100%;
     min-width: 600px;
     border-radius: 10px 8px 10px 4px;
     border: solid black;

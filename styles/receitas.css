@@ -50,17 +50,12 @@ main {
     margin: auto;
 }
 
-main p {
-    margin-left: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
-
 
 main>h1 {
     font-family: Comic Sans MS, Comic Sans, cursive;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.199);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding-top: 10px;
 
 }
@@ -80,6 +75,7 @@ main>p {
 
 
 .div_categoria{
+    border-left: 2px solid black;
     margin: 20px;
     font-family: Inter, system-ui, sans-serif;
     display: flex;
@@ -89,7 +85,7 @@ main>p {
 
 .div_categoria h2 {
     font-size: 1.4em;
-    margin: 15px;
+    margin-left: 15px;
 }
 
 .div_categoria ul{
@@ -100,27 +96,69 @@ main>p {
     gap: 4px;
 }
 
+.div_categoria li {
+    margin-top: 10px;
+}
+
 .div_categoria a {
+    color: var(--cor5);
     font-size: 1.1em;
     text-decoration: none;
 
 }
 
+.div_categoria a:hover{
+    color: var(--cor2);
+}
+
+
 .div_receitas {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
+    margin: auto auto 5% auto;
+    border-left: 2px dotted black;
 }
 
 
 .div_receitas div {
-    margin: 20px;
+    margin: 10px 20px 20px 20px;
 }
+
 
 .propriedades {
     height: 18px;
     display: inline-block;
     line-height: 18px;
     margin-right: 15px;
+    margin-top: 2px;
+}
+
+.dificuldade_baixa {
+    color: #205c03;
+    margin-top: 5px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.imagens {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px 10px 8px 10px;
+    
+}
+
+
+.ver_receita {
+    display: block;
+    text-align: center;
+    margin: 15px 120px 0px 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: var(--cor2);
+    color: var(--cor5);
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #353535;
 }
