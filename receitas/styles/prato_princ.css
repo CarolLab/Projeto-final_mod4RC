@@ -74,7 +74,7 @@ main>p {
 }
 
 
-.div_categoria{
+.div_categoria {
     border-left: 2px solid black;
     margin: 20px;
     font-family: Inter, system-ui, sans-serif;
@@ -88,10 +88,10 @@ main>p {
     margin-left: 15px;
 }
 
-.div_categoria ul{
+.div_categoria ul {
     list-style: none;
     margin-left: 20px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 4px;
 }
@@ -107,7 +107,7 @@ main>p {
 
 }
 
-.div_categoria a:hover{
+.div_categoria a:hover {
     font-weight: 600;
     text-decoration: underline;
 }
@@ -167,7 +167,7 @@ main>p {
     height: 250px;
     border-radius: 8px 10px 8px 10px;
     border: 1px solid black;
-    
+
 }
 
 
