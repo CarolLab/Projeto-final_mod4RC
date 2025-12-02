@@ -55,11 +55,21 @@ main>h1 {
     font-family: Comic Sans MS, Comic Sans, cursive;
     text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.199);
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding-top: 10px;
 
 }
 
+
+.voltar {
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: Gill Sans, sans-serif;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
 
 
 main>p {
