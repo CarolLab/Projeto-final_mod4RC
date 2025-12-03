@@ -72,6 +72,7 @@ main>h1 {
 }
 
 
+
 main>p {
     font: Georgia, 'Times New Roman', Times, serif;
 }
@@ -190,6 +191,17 @@ main>p {
     font-size: 1.2em;
     background-color: var(--cor2);
     color: var(--cor5);
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #353535;
+    transition-duration: 0.5s;
+}
+
+
+
+.ver_receita:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a4b1ee;
+    color: #09131d;
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #353535;
 }
